@@ -14,7 +14,7 @@ class Ronin(Account):
                 transaction = self.get_contract(OPENSEA_CONTRACT, OPENSEA_ABI).functions.mintPublic(Ronke, stable, self.address, 1).build_transaction(tx_data)
                 signed_txn = self.sign(transaction)
                 txn_hash = f"0x{self.send_raw_transaction(signed_txn).hex()}"
-                ll.success(f"[register_domain] | {self.address} | https://scan.coredao.org/tx/{txn_hash}")
+                ll.success(f"[register_domain] | {self.address} | https://app.roninchain.com/tx{txn_hash}")
             else:
                 ll.warning(f"{self.address} dont enough RONIN balance")
         except Exception as err:
