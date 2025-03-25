@@ -1,0 +1,14 @@
+[
+  {
+    "type": "function",
+    "name": "mintPublic",
+    "inputs": [
+      {"name": "address1", "type": "address"},
+      {"name": "address2", "type": "address"},
+      {"name": "address3", "type": "address"},
+      {"name": "value", "type": "uint256"}
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]
