@@ -17,3 +17,7 @@ stable = '0x0000a26b00c1F0DF003000390027140000fAa719'
 
 RPC = 'https://ronin.drpc.org'
 EXPLORER = "https://app.roninchain.com/tx"
+
+# -------------------------------------------------- USER SETTINGS --------------------------------------------------
+
+SLEEP = [10, 30]
